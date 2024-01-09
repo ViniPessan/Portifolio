@@ -1,0 +1,126 @@
+.background{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(../../public/mission-hero.jpg); 
+  margin: 0; 
+  padding: 0; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.logo{
+  width: 350px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 40px 0px 0px 85px;
+  gap: 0px;
+}
+
+.title{
+  font-size: 40px;
+}
+
+.subtitle{
+  font-size: 20px ;
+}
+
+.cardTitle{
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+    padding: 0px 6px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+    border-bottom: 2px solid transparent;
+
+    &:hover{
+      color: rgb(131, 130, 130);
+    }
+}
+
+.selectCardTitle{
+  color: white;
+    margin: 10px;
+    padding: 0px 6px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+  color: rgb(131, 130, 130);
+  border-bottom: 2px solid rgb(251, 0, 251);
+}
+.card{
+  margin:0 180px;
+  display: flex;
+}
+
+.footer{
+  width: 100%;
+  margin-top: auto;
+}
+
+@media(max-width: 768px){
+  .logo{
+    width: 250px;
+    margin: 50px 0 0 50px;
+  }
+  .title{
+    font-size: 30px;
+  }
+  
+  .subtitle{
+    font-size: 14px ;
+  }
+
+  .cardTitle{
+    font-size: 20px;
+  }
+  .card{
+    margin:0 125px;
+    display: flex;
+  }
+}
+
+@media(max-width: 550px){
+  .logo{
+    width: 250px;
+  }
+  .card{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media(max-width: 425px){
+  .logo{
+    width: 200px;
+  }
+  .title{
+    font-size: 25px;
+  }
+  
+  .subtitle{
+    font-size: 11px ;
+  }
+  .card{
+    display: flex;
+    justify-content: center;
+  }
+  .cardTitle{
+    font-size: 15px;
+    margin: 5px;
+    padding: 0px 3px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+}
+@media(max-width: 320px){
+  .logo{
+    margin: 20px 0 0 20px;
+  }
+}

@@ -1,0 +1,377 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/header/style.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.style_navBar__fjLjm {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0px 30px 0px 0px;
+}
+
+.style_options__IYHzT {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 15px 10px;
+  padding: 5px;
+  color: white;
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.4s;
+  border: 2px solid transparent;
+}
+.style_options__IYHzT:hover {
+  color: rgb(131, 130, 130);
+  border-bottom: 2px solid rgb(251, 0, 251);
+}
+
+@media (max-width: 625px) {
+  .style_options__IYHzT {
+    font-size: 18px;
+    margin: 15px 0px;
+    padding: 5px;
+  }
+  .style_navBar__fjLjm {
+    margin: 0px 10px 0px 0px;
+  }
+}
+@media (max-width: 550px) {
+  .style_options__IYHzT {
+    font-size: 15px;
+    margin: 15px 0px;
+    padding: 5px;
+  }
+  .style_navBar__fjLjm {
+    margin: 0px 10px 20px 0px;
+  }
+}
+@media (max-width: 425px) {
+  .style_options__IYHzT {
+    font-size: 13px;
+    margin: 15px 0px;
+    padding: 5px;
+  }
+  .style_navBar__fjLjm {
+    margin: 0px 10px 0px 0px;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/aboutCard/style.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.style_cardDescription__dRpgV {
+  background-color: #0D1117;
+  border: 2px solid rgb(251, 0, 251);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 35px;
+  width: auto;
+  max-width: 700px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 0px 150px;
+  margin-bottom: 50px;
+}
+
+.style_description__08IY_ {
+  font-weight: 200;
+  color: white;
+  font-size: 20px;
+  margin: 10px 25px;
+  padding: 10px;
+  line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+  .style_cardDescription__dRpgV {
+    width: auto;
+    max-width: 500px;
+  }
+  .style_description__08IY_ {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .style_cardDescription__dRpgV {
+    max-width: 400px;
+    margin: 0px 100px;
+  }
+  .style_description__08IY_ {
+    font-size: 14px;
+  }
+}
+@media (max-width: 625px) {
+  .style_cardDescription__dRpgV {
+    max-width: 400px;
+    margin: 0px 100px;
+  }
+  .style_description__08IY_ {
+    font-size: 13px;
+  }
+}
+@media (max-width: 550px) {
+  .style_cardDescription__dRpgV {
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0px 50px;
+  }
+}
+@media (max-width: 375px) {
+  .style_description__08IY_ {
+    font-size: 12px;
+  }
+  .style_cardDescription__dRpgV {
+    margin: 0px 10px;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/technologiesCard/style.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.style_card__NH0fe {
+  background-color: #0D1117;
+  border: 2px solid rgb(251, 0, 251);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 35px;
+  width: auto;
+  max-width: 700px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px 150px;
+  margin-bottom: 50px;
+}
+
+.style_cardDescription__qb3fo {
+  font-weight: 200;
+  color: white;
+  font-size: 22px;
+  margin: 10px 25px;
+  padding: 0px 0px 0px 20px;
+}
+
+.style_img__BRtcv {
+  width: 95%;
+  height: auto;
+  padding: 0px 10px 10px 50px;
+}
+
+@media (max-width: 1024px) {
+  .style_card__NH0fe {
+    max-width: 500px;
+  }
+  .style_cardDescription__qb3fo {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .style_card__NH0fe {
+    max-width: 400px;
+    margin: 0px 100px;
+  }
+  .style_cardDescription__qb3fo {
+    font-size: 16px;
+  }
+}
+@media (max-width: 625px) {
+  .style_card__NH0fe {
+    max-width: 400px;
+    margin: 0px 100px;
+  }
+  .style_cardDescription__qb3fo {
+    font-size: 16px;
+  }
+}
+@media (max-width: 550px) {
+  .style_card__NH0fe {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0px 50px;
+  }
+  .style_cardDescription__qb3fo {
+    font-size: 14px;
+    margin: 10px 25px;
+  }
+  .style_img__BRtcv {
+    width: 100%;
+    height: auto;
+    padding: 0px 10px 10px 10px;
+  }
+}
+@media (max-width: 375px) {
+  .style_cardDescription__qb3fo {
+    font-size: 12px;
+    margin: 10px 5px;
+  }
+  .style_card__NH0fe {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0px 10px;
+  }
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/footer/style.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.style_footer__4Fx8H {
+  background-color: black;
+  color: whitesmoke;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.style_footerDescription__acuSN {
+  margin: 0px 10px;
+  font-size: 14px;
+}
+.style_footerDescription__acuSN:hover {
+  color: rgb(179, 178, 178);
+}
+
+.style_footerCopy__sbn3b {
+  color: darkgray;
+  margin: 0px 10px;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .style_footer__4Fx8H {
+    margin-top: 30px;
+    height: 50px;
+  }
+}
+@media (max-width: 625px) {
+  .style_footerDescription__acuSN {
+    font-size: 10px;
+  }
+  .style_footerCopy__sbn3b {
+    font-size: 10px;
+  }
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/app/styles.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_background__Oi8OG {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(/_next/static/media/mission-hero.1759318b.jpg);
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.styles_logo__7v6T8 {
+  width: 350px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px 85px;
+  gap: 0px;
+}
+
+.styles_title__6GsAA {
+  font-size: 40px;
+}
+
+.styles_subtitle__E_QS2 {
+  font-size: 20px;
+}
+
+.styles_cardTitle__yjVpt {
+  color: white;
+  font-size: 25px;
+  margin: 10px;
+  padding: 0px 6px;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: 0.4s;
+  border-bottom: 2px solid transparent;
+}
+.styles_cardTitle__yjVpt:hover {
+  color: rgb(131, 130, 130);
+}
+
+.styles_selectCardTitle__SkcOS {
+  color: white;
+  margin: 10px;
+  padding: 0px 6px;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  color: rgb(131, 130, 130);
+  border-bottom: 2px solid rgb(251, 0, 251);
+}
+
+.styles_card__EHeAc {
+  margin: 0 180px;
+  display: flex;
+}
+
+.styles_footer__4YOFk {
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .styles_logo__7v6T8 {
+    width: 250px;
+    margin: 0px 50px;
+  }
+  .styles_title__6GsAA {
+    font-size: 30px;
+  }
+  .styles_subtitle__E_QS2 {
+    font-size: 14px;
+  }
+  .styles_cardTitle__yjVpt {
+    font-size: 20px;
+  }
+  .styles_card__EHeAc {
+    margin: 0 125px;
+    display: flex;
+  }
+}
+@media (max-width: 550px) {
+  .styles_logo__7v6T8 {
+    width: 250px;
+  }
+  .styles_card__EHeAc {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 425px) {
+  .styles_logo__7v6T8 {
+    width: 200px;
+  }
+  .styles_title__6GsAA {
+    font-size: 25px;
+  }
+  .styles_subtitle__E_QS2 {
+    font-size: 11px;
+  }
+  .styles_card__EHeAc {
+    display: flex;
+    justify-content: center;
+  }
+  .styles_cardTitle__yjVpt {
+    font-size: 15px;
+    margin: 5px;
+    padding: 0px 3px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .styles_logo__7v6T8 {
+    margin: 0px 20px;
+  }
+}

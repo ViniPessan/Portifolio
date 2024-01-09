@@ -1,0 +1,23 @@
+.background{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(../../../public/mission-hero.jpg); 
+  margin: 0; 
+  padding: 0; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.card{
+  margin: 20px 0 0 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  padding-top: 40px;
+  margin-top: auto;
+}

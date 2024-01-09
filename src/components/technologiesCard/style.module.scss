@@ -1,0 +1,90 @@
+.card{
+  background-color:#0D1117;
+  border: 2px solid rgb(251, 0, 251);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 35px;
+  width: auto;
+  max-width: 700px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px 150px;
+  margin-bottom: 50px;
+}
+
+
+
+.cardDescription{
+  font-weight: 200;
+  color: white;
+  font-size: 22px;
+  margin: 10px 25px;
+  padding: 0px 0px 0px 20px;
+}
+
+.img{
+  width: 95%;
+  height: auto;
+  padding: 0px 10px 10px 50px;
+}
+
+@media(max-width: 1024px){
+  .card{
+    max-width: 500px;
+  }
+  .cardDescription{
+    font-size: 18px;
+  }
+}
+
+@media(max-width: 768px){
+  .card{
+    max-width: 400px;
+    margin: 0px 100px;
+  }
+  .cardDescription{
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 625px){
+  .card{
+    max-width: 400px;
+    margin: 0px 100px;
+  }
+  .cardDescription{
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 550px){
+  .card{
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0px 50px;
+  }
+  .cardDescription{
+    font-size: 14px;
+    margin: 10px 25px;
+  }
+  .img{
+    width: 100%;
+    height: auto;
+    padding: 0px 10px 10px 10px;
+  }
+}
+
+@media(max-width: 375px){
+  .cardDescription{
+    font-size: 12px;
+    margin: 10px 5px;
+  }
+  .card{
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0px 10px;
+  }
+}

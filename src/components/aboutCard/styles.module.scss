@@ -1,0 +1,73 @@
+.cardDescription{
+  background-color:#0D1117;
+  border: 2px solid rgb(251, 0, 251);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 35px;
+  width: auto;
+  max-width: 700px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 0px 150px;
+  margin-bottom: 50px;
+}
+
+
+
+.description{
+  font-weight: 200;
+  color: white;
+  font-size: 20px;
+  margin: 10px 25px;
+  padding: 10px;
+  line-height: 1.6;
+}
+
+@media(max-width: 1024px){
+  .cardDescription{
+    width: auto;
+    max-width: 500px;
+  }
+
+  .description{
+    font-size: 18px;
+  }
+}
+
+@media(max-width: 768px){
+  .cardDescription{
+    max-width: 400px;
+    margin: 0px 100px;
+  }
+  .description{
+    font-size: 14px;
+  }
+}
+
+@media(max-width: 625px){
+  .cardDescription{
+    max-width: 400px;
+    margin: 0px 100px;
+  }
+  .description{
+    font-size: 13px;
+  }
+}
+
+@media(max-width: 550px){
+  .cardDescription{
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0px 50px;
+  }
+}
+
+@media(max-width: 375px){
+  .description{
+    font-size: 12px;
+  }
+  .cardDescription{
+    margin: 0px 10px;
+  }
+}
