@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Modal, ModalBody } from "reactstrap";
 import styles from './style.module.scss'
-
-
+import AOS from 'aos'; 
+import 'aos/dist/aos.css'; 
 
 interface FullScreenModalProps {
   isOpen: boolean; 
@@ -11,8 +11,19 @@ interface FullScreenModalProps {
 }
 
 const FullScreenModal: React.FC<FullScreenModalProps> = ({ isOpen, toggleModal, path }) => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, 
+      easing: 'ease-in-out', // Efeito de transição
+      once: true, 
+    });
+  }, []);
+
   return (
-    <Modal isOpen={isOpen} toggle={toggleModal} fullscreen aria-hidden={!isOpen}>
+
+    
+    <Modal isOpen={isOpen} toggle={toggleModal} fullscreen aria-hidden={!isOpen} data-aos="fade-in">
       <ModalBody className={`p-5 bg-gray-950 text-white h-screen`}>
         <div className="flex justify-end p-5">
           <button onClick={toggleModal} className="focus:outline-none">
