@@ -1,0 +1,237 @@
+.line {
+  height: 1px;
+  background-color: #1ebd3630;
+  width: 100%;
+  margin: 10px auto;
+}
+
+
+.footerSection{
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 180px;
+  padding: 20px 0px 25px 0px;
+ 
+}
+
+.footerCopyTextSection{
+  grid-area: footerCopy;
+}
+.linkedinSection{
+  grid-area: linkedin;
+}
+.githubSection{
+  grid-area: github;
+}
+.instagramSection{
+  grid-area: instagram;
+}
+.emailAndPhoneSection{
+  grid-area: emailAndPhone;
+}
+
+
+.footerText{
+  font-size: 13px;
+  border-bottom: 1px solid white;
+
+  &:hover{
+    color: #9b9a9a;
+    border-bottom: 1px solid #9b9a9a;
+  }
+}
+
+.footerCopyText{
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.footerImg{
+  margin-bottom: 5px;
+  width: 25px;
+  border-radius: 50px;
+}
+
+.footerImg2{
+  width: 25px;
+  border-radius: 50px;
+}
+
+.footerImg3{
+  width: 25px;
+}
+
+
+
+@media(max-width:1304px){
+
+  .footerSection{
+    font-size: 14px;
+    gap: 150px;
+    padding: 20px 0px 25px 0px;
+  }
+
+}
+
+@media(max-width:1100px){
+
+  .footerSection{
+    font-size: 14px;
+    gap: 100px;
+    padding: 20px 0px 25px 0px;
+  }
+
+}
+
+
+@media(max-width:900px){
+
+  .footerSection{
+    font-size: 13px;
+    gap: 60px;
+    padding: 20px 0px 25px 0px;
+  }
+
+}
+
+@media(max-width:768px){
+
+  .footerSection{
+    font-size: 10px;
+    gap: 60px;
+    padding: 20px 0px 25px 0px;
+  }
+
+  .footerText{
+    font-size: 10px;
+  }
+
+}
+
+@media(max-width:630px){
+
+  .footerSection{
+    font-size: 10px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "footerCopy emailAndPhone"
+     "linkedin emailAndPhone"
+     "github emailAndPhone"
+     "instagram emailAndPhone";
+    padding: 20px 0px 25px 0px;
+    justify-content: center;
+  }
+
+  
+  .footerCopyText{
+    margin-bottom: 0px;
+  }
+
+  .footerCopyTextSection{
+    align-items: start;
+    padding: 0px 0px 0px 100px;
+  }
+
+  .linkedinSection{
+    flex-direction: row;
+    justify-content: start;
+    padding: 0px 0px 0px 100px;
+
+  }
+  .githubSection{
+    flex-direction: row;
+    justify-content: start;
+    padding: 0px 0px 0px 100px;
+
+  }
+  .instagramSection{
+    flex-direction: row;
+    justify-content: start;
+        padding: 0px 0px 0px 100px;
+  }
+  .emailAndPhoneSection{
+    flex-direction: row;
+    justify-content: start;
+  }
+
+ 
+
+  .footerText{
+    font-size: 10px;
+    margin: 0px 8px;
+  }
+
+
+}
+
+@media(max-width:490px){
+
+  
+  
+  
+  .footerCopyTextSection{
+    align-items: start;
+    padding: 0px 0px 0px 50px;
+  }
+
+  .linkedinSection{
+    flex-direction: row;
+    justify-content: start;
+    padding: 0px 0px 0px 50px;
+
+  }
+  .githubSection{
+    flex-direction: row;
+    justify-content: start;
+    padding: 0px 0px 0px 50px;
+
+  }
+  .instagramSection{
+    flex-direction: row;
+    justify-content: start;
+        padding: 0px 0px 0px 50px;
+  }
+  .emailAndPhoneSection{
+    flex-direction: row;
+    justify-content: start;
+  }
+
+}
+
+@media(max-width:375px){
+
+  
+  
+  
+  .footerCopyTextSection{
+    align-items: start;
+    padding: 0px 0px 0px 20px;
+  }
+
+  .linkedinSection{
+    flex-direction: row;
+    justify-content: start;
+    padding: 0px 0px 0px 20px;
+
+  }
+  .githubSection{
+    flex-direction: row;
+    justify-content: start;
+    padding: 0px 0px 0px 20px;
+
+  }
+  .instagramSection{
+    flex-direction: row;
+    justify-content: start;
+        padding: 0px 0px 0px 20px;
+  }
+  .emailAndPhoneSection{
+    flex-direction: row;
+    justify-content: start;
+    margin-right: 40px;
+  }
+
+}

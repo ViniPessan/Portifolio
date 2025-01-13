@@ -1,0 +1,41 @@
+
+.section{
+  padding: 0px 160px;
+}
+
+
+@media(max-width: 1181px){
+
+  .section{
+    padding: 0px 80px;
+  }
+  
+  
+}
+
+@media(max-width: 768px){
+
+  .section{
+    padding: 0px 40px;
+  }
+  
+  
+}
+
+@media(max-width: 425px){
+
+  .section{
+    padding: 0px 20px;
+  }
+  
+  
+}
+
+@media(max-width: 375px){
+
+  .section{
+    padding: 0px 10px;
+  }
+  
+  
+}

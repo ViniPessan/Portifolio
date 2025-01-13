@@ -1,0 +1,41 @@
+.modalImg {
+  width: 150px;
+  border: 2px solid rgb(65, 65, 65);
+  border-radius: 50%;
+}
+
+.modalName {
+  font-size: 40px;
+}
+
+.modalBtn {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-bottom: 6px solid transparent;
+
+  &:hover {
+    color: rgb(180, 180, 180);
+    border-bottom: 4px solid rgb(75, 75, 75);
+    margin-bottom: 10px;
+  }
+}
+
+.modalActiveBtn {
+  font-size: 20px;
+  padding-bottom: 6px;
+  color: rgb(255, 254, 254);
+  border-bottom: 4px solid rgb(72, 250, 110);
+  margin-bottom: 10px;
+}
+
+@media (max-width: 463px) {
+  .modalImg {
+    width: 100px;
+  }
+
+  .modalName {
+    font-size: 30px;
+  }
+}
