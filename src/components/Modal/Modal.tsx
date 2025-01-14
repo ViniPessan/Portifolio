@@ -15,7 +15,7 @@ const FullScreenModal: React.FC<FullScreenModalProps> = ({ isOpen, toggleModal, 
   useEffect(() => {
     AOS.init({
       duration: 1000, 
-      easing: 'ease-in-out', // Efeito de transição
+      easing: 'ease-in-out', 
       once: true, 
     });
   }, []);
@@ -24,11 +24,11 @@ const FullScreenModal: React.FC<FullScreenModalProps> = ({ isOpen, toggleModal, 
 
     
     <Modal isOpen={isOpen} toggle={toggleModal} fullscreen aria-hidden={!isOpen} data-aos="fade-in">
-      <ModalBody className={`p-5 bg-gray-950 text-white h-screen`}>
-        <div className="flex justify-end p-5">
-          <button onClick={toggleModal} className="focus:outline-none">
+      <ModalBody className={` bg-gray-950 text-white h-screen`}>
+        <div className="flex justify-end">
+          <button onClick={toggleModal} className={`${styles.closeModal} focus:outline-none`}>
             <svg
-              className="w-8 h-8 text-white"
+              className={styles.closeModalImg}
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
