@@ -132,7 +132,7 @@
 
   .footerCopyTextSection{
     align-items: start;
-    padding: 0px 0px 0px 100px;
+    padding: 0px 0px 0px 105px;
   }
 
   .linkedinSection{
@@ -169,12 +169,10 @@
 
 @media(max-width:490px){
 
-  
-  
-  
+
   .footerCopyTextSection{
     align-items: start;
-    padding: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 55px;
   }
 
   .linkedinSection{
@@ -201,14 +199,44 @@
 
 }
 
-@media(max-width:375px){
+@media(max-width:425px){
 
-  
-  
-  
   .footerCopyTextSection{
     align-items: start;
-    padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 30px;
+    width: 120px;
+  }
+
+  .linkedinSection{
+    flex-direction: row;
+    justify-content: start;
+    padding: 0px 0px 0px 25px;
+
+  }
+  .githubSection{
+    flex-direction: row;
+    justify-content: start;
+    padding: 0px 0px 0px 25px;
+
+  }
+  .instagramSection{
+    flex-direction: row;
+    justify-content: start;
+        padding: 0px 0px 0px 25px;
+  }
+  .emailAndPhoneSection{
+    flex-direction: row;
+    justify-content: start;
+    margin-right: 25px;
+  }
+
+}
+
+@media(max-width:375px){
+
+  .footerCopyTextSection{
+    align-items: start;
+    padding: 0px 0px 0px 25px;
   }
 
   .linkedinSection{
@@ -231,7 +259,7 @@
   .emailAndPhoneSection{
     flex-direction: row;
     justify-content: start;
-    margin-right: 40px;
+    margin-right: 50px;
   }
 
 }
