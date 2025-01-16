@@ -32,7 +32,8 @@
 }
 
 .closeModal{
-  padding: 35px 20px;
+  position: fixed;
+  padding: 2rem 20px;
 }
 
 .closeModalImg{
@@ -49,7 +50,8 @@
 
 
   .closeModal{
-    padding: 40px 20px;
+    padding: 2.2rem 20px;
+    position: fixed;
   }
 
   .closeModalImg{
@@ -73,13 +75,15 @@
 
 @media (max-width: 426px) {
   .closeModal{
-    padding: 35px 25px;
+    padding: 2rem 25px;
+    position: fixed;
   }
 }
 
 
 @media (max-width: 320px) {
   .closeModal{
-    padding: 36px 10px;
+    padding: 2rem 10px;
+    position: fixed;
   }
 }
