@@ -32,11 +32,10 @@
 }
 
 .closeModal{
-  padding: 35px 20px;
+  padding: 60px 20px;
 }
 
 .closeModalImg{
-
   width: 35px;
 }
 
@@ -48,7 +47,7 @@
 
 
   .closeModal{
-    padding: 40px 20px;
+    padding: 65px 20px;
   }
 
   .closeModalImg{
@@ -72,13 +71,13 @@
 
 @media (max-width: 426px) {
   .closeModal{
-    padding: 35px 25px;
+    padding: 60px 25px;
   }
 }
 
 
 @media (max-width: 320px) {
   .closeModal{
-    padding: 36px 10px;
+    padding: 61px 10px;
   }
 }
