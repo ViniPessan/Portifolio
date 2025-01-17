@@ -1,17 +1,17 @@
 const projects = [
   {
     title: "Onebitflix",
-    description: "Inspirado na Netflix - Projeto final do curso da OneBitCode, O back-end está disponível em meu GitHub.",
+    description: "Inspirado na Netflix - Projeto final do curso da OneBitCode. O código completo e o back-end estão disponível em meu GitHub.",
     img: "/projects/onebitflix.png"
   },
   {
     title: "BootPlay",
-    description: "Inspirado no Spotify - Projeto final do bootcamp da Sysmap, O back-end está disponível em meu GitHub.",
+    description: "Inspirado no Spotify - Projeto final do bootcamp da Sysmap. O código completo e o back-end estão disponível em meu GitHub.",
     img: "/projects/sysmap.png"
   },
   {
     title: "My Team",
-    description: "Projeto onde o usuário pode se cadastrar e escalar o seu time de futebol, O back-end está disponível em meu GitHub.",
+    description: "Projeto onde o usuário pode se cadastrar e escalar o seu time de futebol. O código completo e o back-end estão disponível em meu GitHub.",
     img: "/projects/myteam.png"
     
   },
