@@ -14,7 +14,7 @@ export default function AboutCard(){
           <div className={styles.textSection}>
             
           <p className={`${styles.aboutText} text-white`}>
-              Sou Vinicius Pessan, um desenvolvedor front-end apaixonado por JavaScript, 
+              Sou Vinicius Pessan, um desenvolvedor full-stack apaixonado por JavaScript, 
               tenho {new Date().getFullYear() - 2000} anos,
               residente em Pacaembu, São Paulo. 
           </p>
@@ -22,8 +22,8 @@ export default function AboutCard(){
           <p className={`${styles.aboutText} text-white`}> 
           Comecei a estudar programação em 2019 e, desde então, 
           concluí a faculdade de análise e desenvolvimento de sistemas, 
-          além de vários cursos e bootcamps online.
-           Apesar de ser front-end, tenho também conhecimento em back-end.
+          além de cursos e bootcamps online.
+           Meu foco principal é front-end, mas tenho também conhecimento em back-end.
           </p>
               
           <p className={`${styles.aboutText} text-white`}> 
