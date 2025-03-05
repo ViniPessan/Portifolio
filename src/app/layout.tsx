@@ -8,7 +8,7 @@ import Header from "@/components/header/Header";
 const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Vinicius Pessan",
-  description: "Eu sou um desenvolvedor front-end residente em Pacaembu, Brazil",
+  description: "Eu sou um desenvolvedor full-stack residente em Pacaembu, Brazil",
 };
 
 export default function RootLayout({
