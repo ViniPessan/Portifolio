@@ -29,7 +29,7 @@ export default function Header() {
       <div className={`${styles.header} py-10 px-20 flex justify-between items-center`}>
         <Link href="/">
           <div className={`${styles.profileCard} flex justify-center items-center`}>
-            <img src="/profile1.png" alt="profile" className={`${styles.imgProfile} w-12 h-12 rounded-full`} />
+            <img src="/profile.png" alt="profile" className={`${styles.imgProfile} w-12 h-12 rounded-full`} />
             <p className={`${styles.name}`}>Vinicius Pessan</p>
             <img src="/verificado.png" alt="verificado" className={`${styles.imgVerify} w-6 h-6`} />
           </div>

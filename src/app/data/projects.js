@@ -1,4 +1,15 @@
 const projects = [
+    {
+    title: "BC Doceria",
+    description: "E-commerce de doces desenvolvido com React/Next, Tailwind e Prisma. Código completo está disponível em meu GitHub.",
+    img: "/projects/bc.png"
+  },
+  {
+    title: "Gingo menu",
+    description: "Cardápio digital da Gingo hamburgueria, desenvolvido com React/Next e Sass. Código completo está disponível em meu GitHub.",
+    img: "/projects/burguers.png"
+    
+  },
   {
     title: "Onebitflix",
     description: "Inspirado na Netflix - Projeto final do curso da OneBitCode. O código completo e o back-end estão disponíveis em meu GitHub.",
@@ -19,18 +30,7 @@ const projects = [
     title: "LOL",
     description: "Site com temática do jogo League of Legends, com todas as operações CRUD.",
     img: "/projects/lol.png"
-  },
-  {
-    title: "Thresh",
-    description: "Projeto simples inspirado em uma personagem de League of Legends, apenas front-end",
-    img: "/projects/thresh.png"
-  },
-  {
-    title: "Lista de campeões",
-    description: "Um site onde o usuário pode adicionar seus campeões favoritos em uma lista.",
-    img: "/projects/championspool.png"
-    
-  },
+  }
 ];
 
 export default projects

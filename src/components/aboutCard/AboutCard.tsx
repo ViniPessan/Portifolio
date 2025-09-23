@@ -10,7 +10,7 @@ export default function AboutCard(){
           <p className={`${styles.title} text-white text-8xl font-bold`}>Bem vindo(a).</p>
         </div>
         <div className={`${styles.aboutSection}`}>
-          <img src="/me.jpeg" alt="me" className={`${styles.meImg}`}/>
+          <img src="/me.png" alt="me" className={`${styles.meImg}`}/>
           <div className={styles.textSection}>
             
           <p className={`${styles.aboutText} text-white`}>
@@ -46,7 +46,7 @@ export default function AboutCard(){
 
                 <p className={`${styles.moreInfoText} text-xl`}>
                   <span className={styles.colorText}>Back-end</span>: 
-                Node.js, Express.js, MongoDB e PostgreSQL.         
+                Node.js, Express.js, Prisma, MongoDB e PostgreSQL.         
                 </p>
           </div>
 
