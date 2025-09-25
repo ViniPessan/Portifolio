@@ -19,6 +19,8 @@ export default function QualificationCard(){
             <div>
               <p className={`${styles.cardTitle}`}> {qualification.title}</p>
               <p className={`${styles.cardDescription}`}>{qualification.description}</p>
+            </div>
+            <div>
               <p className={`${styles.cardConclusion}`}>Conclusão: {qualification.conclusion}</p>
             </div>
           </div>
@@ -28,7 +30,7 @@ export default function QualificationCard(){
       <div className={styles.seeProjectsSection}>
         <a href="/projects" className={styles.seeProjects}> 
         <p>Ver Projetos</p>
-        <p className={styles.arrow}>--{">"}</p>
+        <p className={styles.arrow}> → </p>
         </a>
       </div>
 

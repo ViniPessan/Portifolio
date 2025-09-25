@@ -39,7 +39,7 @@ const FullScreenModal: React.FC<FullScreenModalProps> = ({ isOpen, toggleModal, 
           </button>
         </div>
         <nav className="flex flex-col items-center">
-          <img src="/profile1.png" alt="profile" className={styles.modalImg} />
+          <img src="/profile.png" alt="profile" className={styles.modalImg} />
           <p className={`${styles.modalName} pb-3 pt-3`}>Vinicius Pessan</p>
           <a href="/" className={`${path === "/" ? styles.modalActiveBtn : styles.modalBtn} py-1`} onClick={toggleModal}>
             Home

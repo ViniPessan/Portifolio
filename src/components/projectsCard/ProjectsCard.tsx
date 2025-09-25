@@ -1,6 +1,7 @@
 import { Container } from "reactstrap";
 import styles from "./style.module.scss"
 import projects from "../../app/data/projects"
+import Link from "next/link";
 
 
 export default function ProjectsCard(){
@@ -36,7 +37,11 @@ export default function ProjectsCard(){
           style={{ backgroundImage: `url(${project.img})`}}>
             <div>
               <p className={`${styles.cardTitle}`}> {project.title}</p>
-              <p className={`${styles.cardDescription}`}>{project.description}</p>
+              <p className={`${styles.cardDescription}`}>{project.description}</p>  
+            </div>
+            <div className="flex flex-col items-center">
+              <a rel="" target="_blank" href={project.Github} className={`${styles.cardLink}`}>🔗Github</a>
+              {project.Link && (<a href={project.Link} target="_blank" rel="noopener noreferrer" className={styles.cardLink}>🔗Ver projeto</a>)}
             </div>
           </div>
         ))}
